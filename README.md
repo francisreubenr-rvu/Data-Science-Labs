@@ -12,7 +12,7 @@
 
 Lab assignments for the **Data Science Laboratory** course (Semester 3, B.Tech CSE). Hands-on work in Python covering data collection, preprocessing, statistical analysis, and machine learning.
 
-This repository currently publishes **Experiment 1 (Data Collection)**. Later experiments will be added as they are completed.
+This repository currently publishes Experiment 1 (Data Collection) and Experiment 2b (Automobile data cleaning). Later experiments will be added as they are completed.
 
 ---
 
@@ -34,6 +34,7 @@ This repository currently publishes **Experiment 1 (Data Collection)**. Later ex
 | Lab | Topic | Folder |
 |---|---|---|
 | 01 | Data Collection (Open-Meteo weather and air quality APIs, bookstore web scraping) | [`Semester-3/Labs-Semester-3/Lab 01`](Semester-3/Labs-Semester-3/Lab%2001) |
+| 02b | Data Cleaning and Transformation (Automobile / Auto MPG) | [`Semester-3/Labs-Semester-3/Lab 02b`](Semester-3/Labs-Semester-3/Lab%2002b) |
 
 ---
 
@@ -43,6 +44,8 @@ This repository currently publishes **Experiment 1 (Data Collection)**. Later ex
 - **Pandas** – tabular data handling
 - **requests** – HTTP clients for REST APIs and HTML pages
 - **BeautifulSoup** – HTML parsing for web scraping
+- **scikit-learn** – encoding and feature scaling
+- **SciPy** – Z-score outlier checks
 
 ---
 
@@ -54,14 +57,16 @@ cd Data-Science-Labs
 pip install -r requirements.txt
 ```
 
-Open the notebooks in `Semester-3/Labs-Semester-3/Lab 01/` with Jupyter.
+Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 
 ---
 
 ## Learning Outcomes
 
 - Collect structured data from REST APIs and paginated HTML catalogues
-- Store collected records as CSV for later analysis
+- Clean missing values, duplicates, and broken numeric tokens
+- Encode categoricals, review outliers, and scale features
+- Store collected and preprocessed records as CSV for later analysis
 - Respect `robots.txt`, terms of service, and request rate limits
 
 ---
