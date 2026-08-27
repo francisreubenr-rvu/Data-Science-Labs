@@ -12,7 +12,7 @@
 
 Lab assignments for the **Data Science Laboratory** course (Semester 3, B.Tech CSE). Hands-on work in Python covering data collection, preprocessing, statistical analysis, and machine learning.
 
-This repository currently publishes Experiment 1 (Data Collection) and Experiment 2b (Automobile data cleaning). Later experiments will be added as they are completed.
+This repository currently publishes Experiment 1 (Data Collection) and Experiment 2 (wrangling of a placement table and the Automobile dataset). Later experiments will be added as they are completed.
 
 ---
 
@@ -34,7 +34,9 @@ This repository currently publishes Experiment 1 (Data Collection) and Experimen
 | Lab | Topic | Folder |
 |---|---|---|
 | 01 | Data Collection (Open-Meteo weather and air quality APIs, bookstore web scraping) | [`Semester-3/Labs-Semester-3/Lab 01`](Semester-3/Labs-Semester-3/Lab%2001) |
-| 02b | Data Cleaning and Transformation (Automobile / Auto MPG) | [`Semester-3/Labs-Semester-3/Lab 02b`](Semester-3/Labs-Semester-3/Lab%2002b) |
+| 02 | Data Wrangling and Transformation | [`Semester-3/Labs-Semester-3/Exp 2`](Semester-3/Labs-Semester-3/Exp%202) |
+| 02a | Student placement table (missing values, scaling, outliers, encoding) | [`Semester-3/Labs-Semester-3/Exp 2/Exp 2a`](Semester-3/Labs-Semester-3/Exp%202/Exp%202a) |
+| 02b | Automobile / Auto MPG cleaning and transformation | [`Semester-3/Labs-Semester-3/Exp 2/Exp 2b`](Semester-3/Labs-Semester-3/Exp%202/Exp%202b) |
 
 ---
 
@@ -73,4 +75,4 @@ Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 
 ## Future Scope
 
-Additional assignments may include data cleaning, visualisation, hypothesis testing, and introductory machine learning models.
+Additional assignments may include visualisation, hypothesis testing, and introductory machine learning models.

@@ -5,6 +5,8 @@
 | Lab | Topic | Status |
 |---|---|---|
 | [Lab 01](Lab%2001) | Data Collection | Complete |
-| [Lab 02b](Lab%2002b) | Data Cleaning and Transformation (Automobile) | Complete |
+| [Exp 2](Exp%202) | Data Wrangling and Transformation | Complete |
+| [Exp 2a](Exp%202/Exp%202a) | Placement dataset | Complete |
+| [Exp 2b](Exp%202/Exp%202b) | Automobile dataset | Complete |
 
 Later labs will be added in this folder as they are submitted.

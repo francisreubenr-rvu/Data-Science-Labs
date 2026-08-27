@@ -1,4 +1,4 @@
-# Lab 02b – Data Cleaning and Transformation
+# Exp 2b – Data Cleaning and Transformation (Automobile)
 
 **Name:** Francis Reuben R  
 **USN:** 1RUA25CSE0168  
@@ -27,6 +27,6 @@ Clean the UCI Auto MPG table and produce analysis-ready features: missing-value 
 ## Run
 
 ```bash
-pip install -r ../../../requirements.txt
+pip install -r ../../../../requirements.txt
 jupyter notebook Ex-2b-Automobile_Data_Cleaning.ipynb
 ```
