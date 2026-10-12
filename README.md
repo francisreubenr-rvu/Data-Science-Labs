@@ -12,7 +12,7 @@
 
 Lab assignments for the **Data Science Laboratory** course (Semester 3, B.Tech CSE). Hands-on work in Python covering data collection, preprocessing, statistical analysis, and machine learning.
 
-This repository currently publishes Experiment 1 (Data Collection), Experiment 2 (wrangling of a placement table and the Automobile dataset), Lab 03 (descriptive statistics on the student survey and gym membership tables), and Lab 04 (one-sample Z-tests and t-tests). Later experiments will be added as they are completed.
+This repository currently publishes Experiment 1 (Data Collection), Experiment 2 (wrangling of a placement table and the Automobile dataset), Lab 03 (descriptive statistics on the student survey and gym membership tables), Lab 04 (one-sample Z-tests and t-tests), Lab 04b (probability distributions), and Lab 05 (linear regression for height-weight and food delivery time).
 
 ---
 
@@ -39,6 +39,8 @@ This repository currently publishes Experiment 1 (Data Collection), Experiment 2
 | 02b | Automobile / Auto MPG cleaning and transformation | [`Semester-3/Labs-Semester-3/Exp 2/Exp 2b`](Semester-3/Labs-Semester-3/Exp%202/Exp%202b) |
 | 03 | Descriptive statistics and visualization (student survey, gym membership) | [`Semester-3/Labs-Semester-3/Lab 03`](Semester-3/Labs-Semester-3/Lab%2003) |
 | 04 | Hypothesis testing: one-sample Z-test and t-test (left, right, two-tailed) | [`Semester-3/Labs-Semester-3/Lab 04`](Semester-3/Labs-Semester-3/Lab%2004) |
+| 04b | Probability distributions (Bernoulli, Binomial, Poisson, Normal, Uniform) | [`Semester-3/Labs-Semester-3/Lab 04b`](Semester-3/Labs-Semester-3/Lab%2004b) |
+| 05 | Linear regression: height to weight, gradient descent, and food delivery time | [`Semester-3/Labs-Semester-3/Lab 05`](Semester-3/Labs-Semester-3/Lab%2005) |
 
 ---
 
@@ -73,6 +75,7 @@ Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 - Encode categoricals, review outliers, and scale features
 - Compute mean, median, variance, IQR, skewness, and kurtosis, and choose which to report
 - Run one-sample Z-tests and t-tests, pick the tail from H1, and decide from the p-value
+- Fit a linear regression on a scaled train/test split and score it with MSE, MAE, and R²
 - Store collected and preprocessed records as CSV for later analysis
 - Respect `robots.txt`, terms of service, and request rate limits
 
@@ -80,4 +83,4 @@ Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 
 ## Future Scope
 
-Additional assignments may include two-sample tests and introductory machine learning models.
+Additional assignments may include two-sample tests, classification, and clustering.

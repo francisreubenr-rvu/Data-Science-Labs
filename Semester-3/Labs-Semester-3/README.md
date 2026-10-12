@@ -10,5 +10,7 @@
 | [Exp 2b](Exp%202/Exp%202b) | Automobile dataset | Complete |
 | [Lab 03](Lab%2003) | Descriptive Statistics and Visualization | Complete |
 | [Lab 04](Lab%2004) | Hypothesis Testing (Z-test and t-test) | Complete |
+| [Lab 04b](Lab%2004b) | Probability Distributions (Bernoulli, Binomial, Poisson, Normal, Uniform) | Complete |
+| [Lab 05](Lab%2005) | Linear Regression (height-weight and food delivery time) | Complete |
 
 Later labs will be added in this folder as they are submitted.
