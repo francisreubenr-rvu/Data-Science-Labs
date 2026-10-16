@@ -12,7 +12,7 @@
 
 Lab assignments for the **Data Science Laboratory** course (Semester 3, B.Tech CSE). Hands-on work in Python covering data collection, preprocessing, statistical analysis, and machine learning.
 
-This repository currently publishes Experiment 1 (Data Collection), Experiment 2 (wrangling of a placement table and the Automobile dataset), Lab 03 (descriptive statistics on the student survey and gym membership tables), Lab 04 (one-sample Z-tests and t-tests), Lab 04b (probability distributions), and Lab 05 (linear regression for height-weight and food delivery time).
+This repository currently publishes Experiment 1 (Data Collection), Experiment 2 (wrangling of a placement table and the Automobile dataset), Lab 03 (descriptive statistics on the student survey and gym membership tables), Lab 04 (one-sample Z-tests and t-tests), Lab 04b (probability distributions), Lab 05 (linear regression for height-weight and food delivery time), and Lab 06 (logistic regression for insurance purchase, gender, and employee retention).
 
 ---
 
@@ -41,6 +41,7 @@ This repository currently publishes Experiment 1 (Data Collection), Experiment 2
 | 04 | Hypothesis testing: one-sample Z-test and t-test (left, right, two-tailed) | [`Semester-3/Labs-Semester-3/Lab 04`](Semester-3/Labs-Semester-3/Lab%2004) |
 | 04b | Probability distributions (Bernoulli, Binomial, Poisson, Normal, Uniform) | [`Semester-3/Labs-Semester-3/Lab 04b`](Semester-3/Labs-Semester-3/Lab%2004b) |
 | 05 | Linear regression: height to weight, gradient descent, and food delivery time | [`Semester-3/Labs-Semester-3/Lab 05`](Semester-3/Labs-Semester-3/Lab%2005) |
+| 06 | Logistic regression: insurance purchase, gender, and employee retention | [`Semester-3/Labs-Semester-3/Lab 06`](Semester-3/Labs-Semester-3/Lab%2006) |
 
 ---
 
@@ -76,6 +77,7 @@ Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 - Compute mean, median, variance, IQR, skewness, and kurtosis, and choose which to report
 - Run one-sample Z-tests and t-tests, pick the tail from H1, and decide from the p-value
 - Fit a linear regression on a scaled train/test split and score it with MSE, MAE, and R²
+- Fit a logistic regression for a binary label, read the sigmoid as a probability, and score it with accuracy, precision, recall, and a confusion matrix
 - Store collected and preprocessed records as CSV for later analysis
 - Respect `robots.txt`, terms of service, and request rate limits
 
@@ -83,4 +85,4 @@ Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 
 ## Future Scope
 
-Additional assignments may include two-sample tests, classification, and clustering.
+Additional assignments may include nearest neighbours, clustering, and principal components.
