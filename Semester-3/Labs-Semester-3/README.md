@@ -13,5 +13,6 @@
 | [Lab 04b](Lab%2004b) | Probability Distributions (Bernoulli, Binomial, Poisson, Normal, Uniform) | Complete |
 | [Lab 05](Lab%2005) | Linear Regression (height-weight and food delivery time) | Complete |
 | [Lab 06](Lab%2006) | Logistic Regression (insurance, gender, and employee retention) | Complete |
+| [Lab 07](Lab%2007) | KNN Classification (iris species and handwritten digits) | Complete |
 
 Later labs will be added in this folder as they are submitted.
