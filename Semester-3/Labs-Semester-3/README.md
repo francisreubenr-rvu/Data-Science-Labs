@@ -14,5 +14,6 @@
 | [Lab 05](Lab%2005) | Linear Regression (height-weight and food delivery time) | Complete |
 | [Lab 06](Lab%2006) | Logistic Regression (insurance, gender, and employee retention) | Complete |
 | [Lab 07](Lab%2007) | KNN Classification (iris species and handwritten digits) | Complete |
+| [Lab 08](Lab%2008) | K-Means Clustering (income and wine) | Complete |
 
 Later labs will be added in this folder as they are submitted.

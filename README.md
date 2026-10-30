@@ -12,7 +12,7 @@
 
 Lab assignments for the **Data Science Laboratory** course (Semester 3, B.Tech CSE). Hands-on work in Python covering data collection, preprocessing, statistical analysis, and machine learning.
 
-This repository currently publishes Experiment 1 (Data Collection), Experiment 2 (wrangling of a placement table and the Automobile dataset), Lab 03 (descriptive statistics on the student survey and gym membership tables), Lab 04 (one-sample Z-tests and t-tests), Lab 04b (probability distributions), Lab 05 (linear regression for height-weight and food delivery time), Lab 06 (logistic regression for insurance purchase, gender, and employee retention), and Lab 07 (K nearest neighbours on iris and handwritten digits).
+This repository currently publishes Experiment 1 (Data Collection), Experiment 2 (wrangling of a placement table and the Automobile dataset), Lab 03 (descriptive statistics on the student survey and gym membership tables), Lab 04 (one-sample Z-tests and t-tests), Lab 04b (probability distributions), Lab 05 (linear regression for height-weight and food delivery time), Lab 06 (logistic regression for insurance purchase, gender, and employee retention), Lab 07 (K nearest neighbours on iris and handwritten digits), and Lab 08 (K-Means clustering on income and the wine measurements).
 
 ---
 
@@ -43,6 +43,7 @@ This repository currently publishes Experiment 1 (Data Collection), Experiment 2
 | 05 | Linear regression: height to weight, gradient descent, and food delivery time | [`Semester-3/Labs-Semester-3/Lab 05`](Semester-3/Labs-Semester-3/Lab%2005) |
 | 06 | Logistic regression: insurance purchase, gender, and employee retention | [`Semester-3/Labs-Semester-3/Lab 06`](Semester-3/Labs-Semester-3/Lab%2006) |
 | 07 | KNN classification: iris species and handwritten digits | [`Semester-3/Labs-Semester-3/Lab 07`](Semester-3/Labs-Semester-3/Lab%2007) |
+| 08 | K-Means clustering: income and the wine measurements | [`Semester-3/Labs-Semester-3/Lab 08`](Semester-3/Labs-Semester-3/Lab%2008) |
 
 ---
 
@@ -52,7 +53,7 @@ This repository currently publishes Experiment 1 (Data Collection), Experiment 2
 - **Pandas** – tabular data handling
 - **requests** – HTTP clients for REST APIs and HTML pages
 - **BeautifulSoup** – HTML parsing for web scraping
-- **scikit-learn** – encoding, feature scaling, and nearest-neighbour classification
+- **scikit-learn** – encoding, feature scaling, nearest-neighbour classification, and K-Means clustering
 - **SciPy** – Z-score outlier checks, skewness, kurtosis, and `norm` / `t` hypothesis tests
 - **Matplotlib, Seaborn** – histograms, box plots, scatter plots, heatmaps, rejection-region plots
 
@@ -80,6 +81,7 @@ Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 - Fit a linear regression on a scaled train/test split and score it with MSE, MAE, and R²
 - Fit a logistic regression for a binary label, read the sigmoid as a probability, and score it with accuracy, precision, recall, and a confusion matrix
 - Classify with K nearest neighbours, choose K from a test-accuracy sweep, and compare a from-scratch majority vote with scikit-learn
+- Cluster with K-Means, choose K from the elbow and the silhouette, and compare a from-scratch implementation with scikit-learn
 - Store collected and preprocessed records as CSV for later analysis
 - Respect `robots.txt`, terms of service, and request rate limits
 
@@ -87,4 +89,4 @@ Open the notebooks under `Semester-3/Labs-Semester-3/` with Jupyter.
 
 ## Future Scope
 
-Additional assignments may include clustering and principal components.
+A later lab may use principal components as the features of a model. In Lab 08 they are only the axes of the wine plot.
